@@ -4,7 +4,7 @@
 # Access the values with {{ .Values.key.subkey }}
 
 # Common
-initContainerImage: "alpine:3.6"
+initContainerImage: "hub.i-soft.com.cn:5080/x86app/alpine:3.6"
 
 # For supporting pulling from private registries
 imagePullSecrets:
@@ -106,7 +106,7 @@ database:
 artifactory:
   name: artifactory-ha
   image:
-    repository: "docker.bintray.io/jfrog/artifactory-pro"
+    repository: "hub.i-soft.com.cn:5080/x86app/artifactory-pro"
     # Note that by default we use appVersion to get image tag
     # version:
     pullPolicy: IfNotPresent
@@ -333,7 +333,7 @@ nginx:
   uid: 104
   gid: 107
   image:
-    repository: "docker.bintray.io/jfrog/nginx-artifactory-pro"
+    repository: "hub.i-soft.com.cn:5080/x86app/nginx-artifactory-pro"
     # Note that by default we use appVersion to get image tag
     # version:
     pullPolicy: IfNotPresent

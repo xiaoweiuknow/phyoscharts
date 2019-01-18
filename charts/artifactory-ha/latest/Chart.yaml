@@ -13,10 +13,6 @@ sources:
 - https://bintray.com/jfrog/product/JFrog-Artifactory-Pro/view
 - https://github.com/jfrog/charts
 maintainers:
-- name: jainishshah17
-  email: jainishs@jfrog.com
-- name: eldada
-  email: eldada@jfrog.com
-- name: rimusz
-  email: rimasm@jfrog.com
+- name: zhangwei
+  email: wei.zhang@i-soft.com.cn
 icon: https://raw.githubusercontent.com/jfrog/artifactory-dcos/master/images/jfrog_med.png

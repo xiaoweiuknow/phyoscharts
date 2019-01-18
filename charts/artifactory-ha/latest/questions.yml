@@ -12,12 +12,12 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: initContainerImage
-    default: "alpine:3.6"
+    default: "hub.i-soft.com.cn:5080/x86app/alpine:3.6"
     description: "Init image name"
     type: string
     label: Init image name
   - variable: artifactory.image.repository
-    default: "docker.bintray.io/jfrog/artifactory-pro"
+    default: "hub.i-soft.com.cn:5080/x86app/artifactory-pro"
     description: "Artifactory image name"
     type: string
     label: Artifactory Image Name
@@ -27,7 +27,7 @@ questions:
     type: string
     label: Artifactory Image Tag
   - variable: nginx.image.repository
-    default: "docker.bintray.io/jfrog/nginx-artifactory-pro"
+    default: "hub.i-soft.com.cn:5080/x86app/nginx-artifactory-pro"
     description: "Nginx image name"
     type: string
     label: Nginx Image Name
