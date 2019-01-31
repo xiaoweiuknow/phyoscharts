@@ -146,7 +146,7 @@ fluent-bit:
     fluent_bit:
       repository: hub.i-soft.com.cn:5080/x86app/fluent-bit
       tag: 0.13.0
-    pullPolicy: Always
+    pullPolicy: IfNotPresent
 
   # When enabled, exposes json and prometheus metrics on {{ .Release.Name }}-metrics service
   metrics:
