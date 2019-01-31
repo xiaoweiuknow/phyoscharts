@@ -8,7 +8,7 @@ questions:
   group: "Container Images"
   subquestions:
   - variable: zeppelin.image.repository
-    default: "dylanmei/zeppelin"
+    default: "hub.i-soft.com.cn:5080/x86app/zeppelin"
     description: "Zeppelin image name"
     type: string
     label: Zeppelin Image Name
