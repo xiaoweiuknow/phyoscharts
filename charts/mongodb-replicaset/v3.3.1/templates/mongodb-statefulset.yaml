@@ -29,7 +29,7 @@ spec:
 {{ toYaml .Values.securityContext | indent 8 }}
       initContainers:
         - name: copy-config
-          image: busybox
+          image: hub.i-soft.com.cn:5080/x86app/busybox
           command:
             - "sh"
           args:
