@@ -120,7 +120,7 @@ zeppelin:
   zeppelin:
     replicas: 1
     image: 
-      repository: dylanmei/zeppelin
+      repository: hub.i-soft.com.cn:5080/x86app/zeppelin
       tag: 0.7.2
     resources:
       limits:
