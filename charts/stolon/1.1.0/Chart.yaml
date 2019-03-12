@@ -1,0 +1,16 @@
+name: stolon
+version: 1.1.0
+appVersion: 0.13.0
+description: Stolon - PostgreSQL cloud native High Availability.
+请在部署时定义superuserPassword和replicationPassword变量，并配置对应的PV存储，建议存储大于10G
+home: https://github.com/sorintlab/stolon
+icon: https://i.imgur.com/tIW8sAW.png
+sources:
+  - https://github.com/sorintlab/stolon
+  - https://github.com/lwolf/stolon-chart
+maintainers:
+  - name: rtluckie
+    email: rluckie@cisco.com
+  - name: lwolf
+    email: ipaq.lw@gmail.com
+engine: gotpl
